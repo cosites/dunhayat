@@ -1,33 +1,18 @@
 export const menuMain = [
     {
-        name: "Home",
+        name: "خانه",
         url: "/",
         highlighted: false,
     },
     {
-        name: "Menu",
-        url: "/menu",
+        name: "محصولات",
+        url: "/products",
         highlighted: false,
     },
     {
-        name: "About Us",
+        name: "درباره ما",
         url: "/about-us",
         highlighted: false,
-    },
-    {
-        name: "Gallery",
-        url: "/gallery",
-        highlighted: false,
-    },
-    {
-        name: "Contact",
-        url: "/contact",
-        highlighted: false,
-    },
-    {
-        name: "Book",
-        url: "/book",
-        highlighted: true,
     },
 ];
 

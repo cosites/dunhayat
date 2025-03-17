@@ -1,5 +1,5 @@
 {
-  "name": "astropie",
+  "name": "dunhayat",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -11,6 +11,7 @@
   "dependencies": {
     "@astrojs/alpinejs": "^0.4.1",
     "@astrojs/mdx": "^4.0.3",
+    "@astrojs/svelte": "^7.0.6",
     "@astrojs/tailwind": "^5.1.4",
     "@playform/inline": "^0.1.0",
     "@types/alpinejs": "^3.13.11",

@@ -10,6 +10,8 @@ export default {
 				brand: {
 					green: "#157F71",
 					red: "#DB1D00",
+				    brown: "#6F4C3E",
+					sand: "#D9B68C"
 				},
 			},
 			container: {

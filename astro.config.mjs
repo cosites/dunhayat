@@ -1,6 +1,8 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 
+import svelte from "@astrojs/svelte";
+
 import tailwind from "@astrojs/tailwind";
 
 import alpinejs from "@astrojs/alpinejs";
@@ -15,6 +17,7 @@ export default defineConfig({
 	base: "/",
 	// trailingSlash: 'always',
 	integrations: [
+		svelte(),
 		tailwind(),
 		alpinejs(),
 		mdx(),

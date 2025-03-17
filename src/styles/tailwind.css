@@ -9,6 +9,11 @@ body {
 
 body {
 	@apply h-full scroll-smooth font-inter text-gray-700;
+	
+	font-family: 'Vazirmatn', sans-serif;
+	direction: rtl;
+    text-align: right;
+	
 }
 
 h1,
@@ -55,38 +60,28 @@ p {
 }
 
 .button {
-	@apply rounded-full px-4 py-3 text-base transition duration-300 font-bold shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;
+	@apply rounded-full px-4 py-3 text-base transition duration-300 font-bold shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-brand-sand hover:bg-brand-sand/80 text-white focus-visible:outline-brand-sand;;
 }
 
-.button-green {
-	@apply bg-brand-green hover:bg-brand-green/80 text-white focus-visible:outline-brand-green;
+.button-brown {
+	@apply bg-brand-brown hover:bg-brand-brown/80 text-white focus-visible:outline-brand-brown;
 }
 
-.button-red {
-	@apply bg-brand-red hover:bg-brand-red/80 text-white focus-visible:outline-brand-red;
+.button-sand {
+	@apply bg-brand-sand hover:bg-brand-sand/80 text-white focus-visible:outline-brand-sand;
 }
 
-.menu-item-highlighted.menu-item-highlighted {
-	@apply text-white bg-brand-green px-4 rounded-full py-1.5 hover:bg-opacity-80 hover:text-white;
+.ltr-phone {
+	direction: ltr;
 }
 
-.menu-item-active.menu-item-highlighted {
-	@apply hover:text-white;
-}
 
-.menu-item-active:not(.menu-item-highlighted) {
-	@apply text-brand-green font-bold;
-}
+.custom-icon {
+	color: palevioletred; /* Icon color */
+	font-size: 48px; /* Icon size */
+	margin-right: 8px; 
+  }
 
-[x-cloak] {
-	display: none !important;
-}
-
-section.bg-white + section.bg-white > .container,
-section.bg-brand-green + section.bg-brand-green > .container,
-section.bg-brand-red + section.bg-brand-red > .container {
-	@apply pt-0;
-}
 
 input,
 textarea {
